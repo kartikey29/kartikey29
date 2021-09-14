@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e0e8ff;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  margin-bottom: 0;
+}
+h6 {
+  margin-bottom: 3px;
+}
+.card-outer {
+  margin-top: 70px;
+}
+.card {
+  border-radius: 20px;
+}
+.card-title {
+  padding: 10px;
+  font-weight: bold;
+}
+.card-text {
+  line-height: 1.5;
+}
+.card-img-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.music-image {
+  float: left;
+  margin-right: 10px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.pricing-text {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 1;
+  text-align: left;
+}
+
+.pricing {
+  position: relative;
+  padding: 20px;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 85%;
+}
+
+button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.change-button {
+  border: 0px;
+  background-color: transparent;
+  font-size: 12px;
+  color: #3829e0;
+  font-weight: bold;
+}
+.change-button:hover {
+  background-color: transparent;
+}
+.place-order {
+  background-color: #3829e0;
+  color: white;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 20px;
+}
+.cancel-order {
+  margin: 10px;
+  text-decoration: none;
+  color: #7280a7;
+  background-color: transparent;
+}
+.cancel-order:hover {
+  color: black;
+}
+.place-order:hover {
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+}
