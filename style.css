@@ -95,6 +95,6 @@ button {
 
 @media (max-width: 768px) {
   body {
-    background-image: url("images/pattern-background-mobile.svg");
+    background-image: url("pattern-background-mobile.svg");
   }
 }
