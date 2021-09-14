@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: url("images/pattern-background-desktop.svg");
+  background-image: url("pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #e0e8ff;
@@ -13,8 +13,8 @@ h6 {
   margin-bottom: 3px;
 }
 .card-outer {
-  margin: 10px;
-  margin-top: 70px;
+  width: 25rem;
+  margin-top: 20px;
 }
 .card {
   border-radius: 20px;
@@ -96,6 +96,10 @@ button {
 
 @media (max-width: 768px) {
   body {
-    background-image: url("pattern-background-mobile.svg");
+    background-image: url("background-mobile.svg");
+  }
+  .card-outer {
+    width: 90%;
+    margin-top: 50px;
   }
 }
